@@ -25,10 +25,11 @@ window.addEventListener('load', placeButtons);
 window.addEventListener('resize', placeButtons);
 
  
-const audio = new Audio('mio-mio (3).mp3');
+const audio = new Audio('cat.mp3');
 audio.loop = true; // اگر میخوای صدا تکرار بشه
 // وقتی روی دکمه کلیک شد، صدا شروع به پخش می‌کنه
 yesBtn.addEventListener('click', function() {
   audio.play();
   alert("me too baby ❤😍");
+
 });
