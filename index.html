@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>run</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen flex items-center justify-center">
+    <div id="stage" class="relative w-[90%] max-w-xl h-[60vh] bg-black/30 rounded-xl flex items-center justify-center">
+        <h1>?do you love me</h1>
+        <button id="yesBtn" class="btn bg-green-600" onclick="showmessage">yes</button>
+        <button id="noBtn" class="btn bg-red-600">no</button>
+    </div>
+    <audio  id="backgrundmusic" autoplay loop>
+        <source src="./mio-mio (3).mp3" type="audio">
+        مرور گر شما از موزیک پشتیبانس نمس کند
+    </audio>
+    <!-- خیلی مهم: اسکریپت باید بعد از عناصر HTML بیاد -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
